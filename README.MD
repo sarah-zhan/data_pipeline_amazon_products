@@ -13,3 +13,7 @@ The data is from [kaggle](https://www.kaggle.com/datasets/lokeshparab/amazon-pro
 
 ## Data Pipeline Mapping
 ![mapping](./photos/mapping.png)
+
+## Google Cloud
+1. Composer - create environment - create a name - check the box to grant the permission - keep the rest as default or choose as you need
+2. Data Fusion - create a name - keep default setting
