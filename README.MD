@@ -12,4 +12,4 @@ The data is from [kaggle](https://www.kaggle.com/datasets/lokeshparab/amazon-pro
 5. Dashboard Visulization (need 2 tiles)
 
 ## Data Pipeline Mapping
-[mapping](mapping.drawio)
+![mapping](./photos/mapping.png)
