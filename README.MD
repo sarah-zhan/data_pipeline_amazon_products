@@ -29,3 +29,29 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 6. Use the gcloud SDK with the Service Account: `gcloud auth activate-service-account --key-file=$GOOGLE_APPLICATION_CREDENTIALS`
 7. run `python3 extract.py` to upload the csv file to bucket
 ![upload_to_bucket](./photos/upload_to_bucket.png)
+8. **3 csv files have not been pushed to the repo**
+
+## Data Fusion (Transformation)
+1. go to the data fusion instance -> authorize
+2. choose what you would like to do
+![fusion1](./photos/fusion1.png.png)
+3. choose wrangle or others
+4. connect to the file in GCS bucket (you might need to add connection if the connection is not available in the default)
+5. set up the parsing options -> csv/use first row as header/enable quoted value
+6. Transform the data: clean data/ update data types ...
+![cleaning](./photos/cleaning.png)
+7. Create a Pipeline
+![create_pipeline](./photos/create_pipeline.png)
+
+![create_pipeline2](./photos/create_pipeline2.png)
+8. choose a sink (BigQuery)
+![sink](./photos/sink.png)
+9. create a new dataset in BigQuery
+10. set up the BigQuery property
+![bq-1](./photos/bq-1.png)
+![bq-2](./photos/bq-2.png)
+11. use "validate" button to check whether there is an error
+12. name your pipeline and deploy it
+![deploy](./photos/deploy.png)
+13. pipeline created
+![pipeline](./photos/pipeline.png)
