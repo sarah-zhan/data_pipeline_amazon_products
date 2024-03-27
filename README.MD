@@ -73,3 +73,5 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 ![Tableau dash board](<photos/Amazon Sales Aug 2023.png>)
 
 ![alt text](<photos/Amazon Sales Aug 2023 (1).png>)
+
+[Tableau Report](https://public.tableau.com/views/AmazonSalesAug2023/AmazonSalesAug2023?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
