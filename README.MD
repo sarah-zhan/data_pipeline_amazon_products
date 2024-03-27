@@ -40,3 +40,6 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 ![set_up_data](./photos/set_up_data.png)
 5. transforms
 ![transform](./photos/transform.png)
+6. targets bucket
+![pipeline](./photos/pipeline.png)
+
