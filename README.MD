@@ -42,4 +42,7 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 ![transform](./photos/transform.png)
 6. targets bucket
 ![pipeline](./photos/pipeline.png)
-
+7. need to create a role that let glue call aws services, attached s3 full access policy
+8. set up the properties and save
+9. run the pipeline
+![run_successfully](./photos/run_successfully.png)
