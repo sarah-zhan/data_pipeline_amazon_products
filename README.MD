@@ -6,10 +6,10 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 
 ## Requirements
 1. Data Extraction from data sources, such as databases, csv files, or APIs.
-2. Data masking: If sensitive information exist
-3. Data loading to AWS: Design a process to securely load the data to google storage bucket and AWS (Batching or Streaming)
-4. Transform the data
-5. Dashboard Visulization (need 2 tiles)
+2. Data loading to AWS bucket
+3. Transform the data using AWS Glue, saving the parquet file in AWS bucket
+4. Query the data using AWS Athena, saving the query results in bucket
+5. Import the query results and use Tableau Dashboard Visulization
 
 ## Data Pipeline Mapping
 ![mapping](./photos/mapping.png)
@@ -65,3 +65,11 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 ![query](./photos/query.png)
 ![query_file](./photos/query_file.png)
 
+## Tableau Public
+1. sign up Tableau public
+2. upload the athena query results
+3. build your dashboard
+
+![Tableau dash board](<photos/Amazon Sales Aug 2023.png>)
+
+![alt text](<photos/Amazon Sales Aug 2023 (1).png>)
