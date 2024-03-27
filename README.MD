@@ -59,4 +59,9 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 7. a table is created
 
 ## Athena (Query)
+1. choose "Analyze your data using PySpark and Spark SQL" Launch notebook editor
+2. Query editor - settings - manage - Query result location (create a new bucket for it)
+3. do the sql query and it returns the result and the file saved in the bucket
+![query](./photos/query.png)
+![query_file](./photos/query_file.png)
 
