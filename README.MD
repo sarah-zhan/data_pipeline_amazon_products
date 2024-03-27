@@ -46,3 +46,5 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 8. set up the properties and save
 9. run the pipeline
 ![run_successfully](./photos/run_successfully.png)
+10. transfer the data to bucket in parquet format
+![transfer](./photos/transfer.png)
