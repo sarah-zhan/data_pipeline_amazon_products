@@ -38,7 +38,7 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 ![source](./photos/source.png)
 4. set up data source
 ![set_up_data](./photos/set_up_data.png)
-5. transforms
+5. transforms (join/drop columns/change column name/update schema)
 ![transform](./photos/transform.png)
 6. targets bucket
 ![pipeline](./photos/pipeline.png)
@@ -48,3 +48,15 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 ![run_successfully](./photos/run_successfully.png)
 10. transfer the data to bucket in parquet format
 ![transfer](./photos/transfer.png)
+
+## Crawlers
+1. create a crawler
+2. add data sources (datawarehouse folder)
+3. add IAM role (choose **AWSGlueServiceRole-xx**)
+4. create a database and use it as the target database
+5. hit create crawler
+6. run crawler
+7. a table is created
+
+## Athena (Query)
+
