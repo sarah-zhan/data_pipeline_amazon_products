@@ -40,7 +40,7 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 ![set_up_data](./photos/set_up_data.png)
 5. transforms (join/drop columns/change column name/update schema)
 ![transform](./photos/transform.png)
-6. targets bucket
+6. targets bucket                   
 ![pipeline](./photos/pipeline.png)
 7. need to create a role that let glue call aws services, attached s3 full access policy
 8. set up the properties and save
