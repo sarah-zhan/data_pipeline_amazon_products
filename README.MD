@@ -36,3 +36,7 @@ The data is from [kaggle](https://www.kaggle.com/datasets/asaniczka/amazon-produ
 2. create job - Visual ETL
 3. choose the source
 ![source](./photos/source.png)
+4. set up data source
+![set_up_data](./photos/set_up_data.png)
+5. transforms
+![transform](./photos/transform.png)
